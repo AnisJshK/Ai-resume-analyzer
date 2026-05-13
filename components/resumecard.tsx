@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-import ScoreCircle from "~/Components/ScoreCircle";
+import ScoreCircle from "./ScoreCircle";
 
 const ResumeCard = ({ resume }: { resume: Resume }) => {
   return (
