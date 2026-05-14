@@ -6,7 +6,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
-
+import {ThemeProvider} from "../components/theme-provider";
 import type { Route } from "./+types/root";
 import "./app.css";
 import { usePuterStore } from "~/lib/puter";
@@ -49,7 +49,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  return <Outlet />
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router";
 import { usePuterStore } from "~/lib/puter";
 import Summary from "../../components/Summary";
-import ATS from "../../components/ATS";
 import Details from "../../components/Details";
+import Ats from "../../components/Ats";
 
 export const meta = ()=>([
   {title:'NeuraHire | Review'},
@@ -22,29 +22,6 @@ const Resume = () => {
     if(!isLoading && !auth.isAuthenticated) navigate(`/auth?next=/resume/${id}`);
   }, [isLoading]);
 
-  // useEffect(() => {
-  //   const loadResume = async()=>{
-  //     const resume = await kv.get(`resume:${id}`);
-  //
-  //     if(!resume) return;
-  //     const data = JSON.parse(resume);
-  //
-  //     const resumeBlob  = await fs.read(data.resumePath);
-  //     if(!resumeBlob) return;
-  //     const pdfBlob = new Blob([resumeBlob],{type: "application/pdf"});
-  //     const resumeUrl = URL.createObjectURL((pdfBlob));
-  //     setResumeUrl(resumeUrl);
-  //
-  //     const imageBlob = await fs.read(data.imagePath);
-  //     if(!imageBlob) return;
-  //     const imageUrl = URL.createObjectURL((imageBlob));
-  //     setImageUrl(imageUrl);
-  //
-  //     setFeedback(data.feedback);
-  //     console.log({resumeUrl,imageUrl,feedback:data.feedback});
-  //   }
-  //   loadResume();
-  // }, [id]);
   useEffect(() => {
     if (!kv || !fs) return; // ← wait for puter to be ready
 
@@ -111,7 +88,7 @@ const Resume = () => {
               className={"flex flex-col gap-8 animate-in fade-in duration-1000"}
             >
              <Summary feedback={feedback} />
-              <ATS score={feedback.ATS.score || 0} suggestions={feedback.ATS.tips || []}/>
+              <Ats score={feedback.ATS.score || 0} suggestions={feedback.ATS.tips || []}/>
               <Details feedback={feedback} />
             </div>
           ) : (
