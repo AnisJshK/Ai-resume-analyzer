@@ -71,7 +71,7 @@ const handleAnalyze = async({companyName,jobTitle,jobDescription,file}:{companyN
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const form = e.currentTarget.closest("form");
+    const form = e.currentTarget;
     if (!form) return;
     const formData = new FormData(form);
 
