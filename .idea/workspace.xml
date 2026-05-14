@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00449ed1-6b39-4fc5-b614-7e17d80ca19e" name="Changes" comment="project-initialize-1">
-      <change afterPath="$PROJECT_DIR$/components/Accordion.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ScoreBadge.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ScoreGuage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/theme-provider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/blurry-gradient-haikei.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/pdfToImage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/pdfToImage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/root.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/resume.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/upload.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/upload.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ATS.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Ats.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Details.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Details.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/FileUploader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/FileUploader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Summary.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/resumecard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/resumecard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +86,7 @@
       <workItem from="1778523004382" duration="1386000" />
       <workItem from="1778561486106" duration="13595000" />
       <workItem from="1778671145894" duration="11393000" />
-      <workItem from="1778739292550" duration="12853000" />
+      <workItem from="1778739292550" duration="13575000" />
     </task>
     <task id="LOCAL-00001" summary="project-initialize-1">
       <option name="closed" value="true" />
